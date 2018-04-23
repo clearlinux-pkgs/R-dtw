@@ -4,7 +4,7 @@
 #
 Name     : R-dtw
 Version  : 1.18.1
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/dtw_1.18-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/dtw_1.18-1.tar.gz
 Summary  : Dynamic Time Warping Algorithms
