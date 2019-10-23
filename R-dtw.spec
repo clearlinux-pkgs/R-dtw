@@ -4,7 +4,7 @@
 #
 Name     : R-dtw
 Version  : 1.21.3
-Release  : 48
+Release  : 49
 URL      : https://cran.r-project.org/src/contrib/dtw_1.21-3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/dtw_1.21-3.tar.gz
 Summary  : Dynamic Time Warping Algorithms
@@ -17,6 +17,7 @@ BuildRequires : R-analogue
 BuildRequires : R-fossil
 BuildRequires : R-proxy
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 No detailed description available
@@ -37,10 +38,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1567438570
+export SOURCE_DATE_EPOCH=1571821121
 
 %install
-export SOURCE_DATE_EPOCH=1567438570
+export SOURCE_DATE_EPOCH=1571821121
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
